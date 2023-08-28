@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:site_name" content="Sarmad's Portfolio" />
+    <meta property="og:title" content="Sarmad Personal Portfolio Website" />
+    <meta
+      property="og:description"
+      content="Sarmad's Personal Portfolio Website Where we Offers Full-Stack Web Development, WordPress Development, AI & ML Development and Software Development Quality Services"
+    />
+    <meta
+      property="og:image"
+      content="./photo-1472099645785-5658abf4ff4e.avif"
+    />
+    <meta property="og:url" content="http://localhost:5173/" />
+    <link
+      rel="shortcut icon"
+      href="./assets/photo-1472099645785-5658abf4ff4e-14773b68.avif"
+      type="image/x-icon"
+    />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sarmad's Portfolio</title>
+    <link rel="stylesheet" href="./assets/index-4cf6dcd2.css">
+  </head>
+  <body class="font-[Poppins] text-sky-500">
+    <section
+      class="hero-area bg-[url('./hero-background-sm.jpg')] bg-cover bg-no-repeat bg-blend-overlay bg-slate-900 border-b border-solid border-b-slate-400 sm:bg-[url('./hero-background-md.jpg')] md:bg-[url('./hero-background-lg.jpg')] lg:bg-[url('./hero-background-xl.jpg')]"
+    >
+      <div
+        class="navbar py-4 px-[4%] flex relative border-b border-solid border-b-slate-400"
+      >
+        <div class="logo flex gap-3 items-center cursor-pointer">
+          <div class="img">
+            <img
+              src="./assets/photo-1472099645785-5658abf4ff4e-14773b68.avif"
+              alt="Sarmad's Logo"
+              title="Sarmad"
+              class="h-10 rounded-lg"
+            />
+          </div>
+          <div class="name font-semibold tracking-wide text-white">
+            <p>Sarmad</p>
+          </div>
+        </div>
+        <div
+          class="nav-links flex items-center gap-6 sm:gap-8 max-md:order-2 md:flex-grow md:justify-end md:mr-8"
+        >
+          <div
+            class="hamburger space-y-1 cursor-pointer mb-1 max-md:order-2 md:hidden"
+          >
+            <div class="line bg-slate-300 h-[2px] w-6 rounded-full"></div>
+            <div class="line bg-slate-300 h-[2px] w-5 rounded-full"></div>
+            <div class="line bg-slate-300 h-[2px] w-6 rounded-full"></div>
+          </div>
+          <div
+            class="nav-items absolute top-full left-0 list-none gap-6 w-full text-sm flex max-sm:px-4 max-md:px-8 max-md:py-5 max-md:flex-col max-md:hidden max-md:bg-slate-600 md:w-fit md:relative md:inset-0"
+          >
+            <div
+              class="nav-item cursor-pointer w-fit font-semibold text-slate-300 duration-500 tracking-wide hover:text-sky-500"
+            >
+              <li><a href="#" target="_self">Home</a></li>
+            </div>
+            <div
+              class="nav-item cursor-pointer w-fit font-semibold text-slate-300 duration-500 tracking-wide hover:text-sky-500"
+            >
+              <li>
+                <span><a href="#services">Services</a></span>
+              </li>
+            </div>
+            <div
+              class="nav-item cursor-pointer w-fit font-semibold text-slate-300 duration-500 tracking-wide hover:text-sky-500"
+            >
+              <li>
+                <span><a href="#portfolio">Portfolio</a></span>
+              </li>
+            </div>
+            <div
+              class="nav-item cursor-pointer w-fit font-semibold text-slate-300 duration-500 tracking-wide hover:text-sky-500"
+            >
+              <li>
+                <span><a href="#testimonial">Testimonial</a></span>
+              </li>
+            </div>
+            <div
+              class="nav-item cursor-pointer w-fit font-semibold text-slate-300 duration-500 tracking-wide hover:text-sky-500"
+            >
+              <li><a href="#">Contact</a></li>
+            </div>
+          </div>
+          <div class="search -scale-x-100 mb-1 cursor-pointer text-slate-300">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              class="bi bi-search h-[20px] hover:text-white duration-500"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="social-links flex items-center gap-4 text-slate-300 max-sm:mr-6 sm:gap-6 max-md:flex-grow max-md:justify-end max-md:mr-8"
+        >
+          <div class="facebook mb-1 cursor-pointer">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              class="bi bi-facebook h-[20px] hover:scale-125 hover:text-white duration-500"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+              />
+            </svg>
+          </div>
+          <div class="linkedin mb-1 cursor-pointer">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              class="bi bi-linkedin h-[20px] hover:scale-125 hover:text-white duration-500"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+              />
+            </svg>
+          </div>
+          <div class="pinterest mb-1 cursor-pointer">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              class="bi bi-pinterest h-[20px] hover:scale-125 hover:text-white duration-500"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z"
+              />
+            </svg>
+          </div>
+          <div class="whatsapp mb-1 cursor-pointer">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              class="bi bi-whatsapp h-[20px] hover:scale-125 hover:text-white duration-500"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div
+        class="title py-[25%] flex flex-col items-center gap-12 xs:py-[20%] sm:py-[18%] md:py-[14%]"
+      >
+        <div class="intro w-[92%] flex flex-col items-center gap-6 text-center">
+          <div
+            class="name text-2xl font-bold xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl"
+          >
+            <h1>Hi, 👋 I'm Sarmad Usmani</h1>
+          </div>
+          <div
+            class="description text-slate-300 text-xs xs:text-sm sm:text-lg md:text-xl lg:text-2xl"
+          >
+            <p>Full-Stack Web Developer, AI and Machine Learning Expert</p>
+          </div>
+        </div>
+        <div class="call-to-action flex gap-4 text-white xs:gap-8">
+          <div class="hire-button">
+            <button
+              class="bg-sky-500 text-xs duration-700 px-4 py-2 rounded-lg flex items-center gap-2 hover:scale-105 hover:bg-sky-600 xs:text-sm sm:text-base md:text-lg md:px-6"
+            >
+              Hire Me Now
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="bi bi-chevron-right h-[10px] xs:h-[12px] sm:h-[15px] md:h-[18px]"
+                viewBox="0 0 15 15"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="portfolio-button">
+            <a href="#portfolio">
+              <button
+                class="bg-slate-500 text-xs hover:bg-slate-600 duration-700 px-4 py-2 relative rounded-lg flex items-center gap-2 hover:scale-105 md:px-6 xs:text-sm sm:text-base md:text-lg"
+              >
+                My Portfolio
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  class="bi bi-chevron-right h-[10px] xs:h-[12px] sm:h-[15px] md:h-[18px]"
+                  viewBox="0 0 15 15"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="py-16 bg-slate-900 flex flex-col items-center space-y-10 border-b border-b-slate-400"
+      id="services"
+    >
+      <div class="services-top space-y-4 text-center w-[92%]">
+        <div
+          class="services-title text-4xl font-bold tracking-wider lg:text-5xl"
+        >
+          <h1>Services</h1>
+        </div>
+        <div
+          class="services-description text-base text-slate-300 md:text-lg lg:text-xl"
+        >
+          <p>Your Partner in Full Stack Web Development and AI Advancements</p>
+        </div>
+      </div>
+      <div class="services-describe flex flex-col gap-10 w-[92%]">
+        <div
+          class="upper flex max-sm:flex-col max-sm:gap-10 sm:justify-between"
+        >
+          <div
+            class="web-development rounded-xl shadow-lg bg-slate-950 shadow-slate-950 py-10 px-6 flex flex-col items-center gap-8 text-center sm:w-[48%] sm:max-md:gap-4"
+          >
+            <div
+              class="web-title flex items-center text-2xl gap-4 font-semibold tracking-wider sm:max-md:text-[16px] md:max-lg:text-xl"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="bi bi-code-slash h-[40px] sm:max-md:h-[22px] md:max-lg:h-[30px]"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"
+                />
+              </svg>
+              <h1>Web Development</h1>
+            </div>
+            <div
+              class="web-description text-slate-300 sm:max-md:text-xs md:max-lg:text-sm"
+            >
+              <p>
+                Building Complete Digital Journeys through Full Stack Web
+                Development
+              </p>
+            </div>
+          </div>
+          <div
+            class="wordpress-development rounded-xl shadow-lg bg-slate-950 shadow-slate-950 py-10 px-6 flex flex-col items-center gap-8 text-center sm:w-[48%] sm:max-md:gap-4"
+          >
+            <div
+              class="wordpress-title flex items-center text-2xl gap-4 font-semibold tracking-wider sm:max-md:text-[16px] md:max-lg:text-xl"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="bi bi-wordpress h-[40px] sm:max-md:h-[22px] md:max-lg:h-[30px]"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M12.633 7.653c0-.848-.305-1.435-.566-1.892l-.08-.13c-.317-.51-.594-.958-.594-1.48 0-.63.478-1.218 1.152-1.218.02 0 .039.002.058.003l.031.003A6.838 6.838 0 0 0 8 1.137 6.855 6.855 0 0 0 2.266 4.23c.16.005.313.009.442.009.717 0 1.828-.087 1.828-.087.37-.022.414.521.044.565 0 0-.371.044-.785.065l2.5 7.434 1.5-4.506-1.07-2.929c-.369-.022-.719-.065-.719-.065-.37-.022-.326-.588.043-.566 0 0 1.134.087 1.808.087.718 0 1.83-.087 1.83-.087.37-.022.413.522.043.566 0 0-.372.043-.785.065l2.48 7.377.684-2.287.054-.173c.27-.86.469-1.495.469-2.046zM1.137 8a6.864 6.864 0 0 0 3.868 6.176L1.73 5.206A6.837 6.837 0 0 0 1.137 8z"
+                />
+                <path
+                  d="M6.061 14.583 8.121 8.6l2.109 5.78c.014.033.03.064.049.094a6.854 6.854 0 0 1-4.218.109zm7.96-9.876c.03.219.047.453.047.706 0 .696-.13 1.479-.522 2.458l-2.096 6.06a6.86 6.86 0 0 0 2.572-9.224z"
+                />
+                <path
+                  fill-rule="evenodd"
+                  d="M0 8c0-4.411 3.589-8 8-8 4.41 0 8 3.589 8 8s-3.59 8-8 8c-4.411 0-8-3.589-8-8zm.367 0c0 4.209 3.424 7.633 7.633 7.633 4.208 0 7.632-3.424 7.632-7.633C15.632 3.79 12.208.367 8 .367 3.79.367.367 3.79.367 8z"
+                />
+              </svg>
+              <h1>WordPress</h1>
+            </div>
+            <div
+              class="wordpress-description text-slate-300 sm:max-md:text-xs md:max-lg:text-sm"
+            >
+              <p>
+                Empowering Your Digital Presence with WordPress Wonders:
+                Elevate, Engage, Excel
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="lower flex max-sm:flex-col max-sm:gap-10 sm:justify-between"
+        >
+          <div
+            class="ai&ml-development rounded-xl shadow-lg bg-slate-950 shadow-slate-950 py-10 px-6 flex flex-col items-center gap-8 text-center sm:w-[48%] sm:max-md:gap-4"
+          >
+            <div
+              class="ai&ml-title flex items-center text-2xl gap-4 font-semibold tracking-wider sm:max-md:text-[16px] md:max-lg:text-xl"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="bi bi-robot h-[40px] sm:max-md:h-[22px] md:max-lg:h-[30px]"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M6 12.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5ZM3 8.062C3 6.76 4.235 5.765 5.53 5.886a26.58 26.58 0 0 0 4.94 0C11.765 5.765 13 6.76 13 8.062v1.157a.933.933 0 0 1-.765.935c-.845.147-2.34.346-4.235.346-1.895 0-3.39-.2-4.235-.346A.933.933 0 0 1 3 9.219V8.062Zm4.542-.827a.25.25 0 0 0-.217.068l-.92.9a24.767 24.767 0 0 1-1.871-.183.25.25 0 0 0-.068.495c.55.076 1.232.149 2.02.193a.25.25 0 0 0 .189-.071l.754-.736.847 1.71a.25.25 0 0 0 .404.062l.932-.97a25.286 25.286 0 0 0 1.922-.188.25.25 0 0 0-.068-.495c-.538.074-1.207.145-1.98.189a.25.25 0 0 0-.166.076l-.754.785-.842-1.7a.25.25 0 0 0-.182-.135Z"
+                />
+                <path
+                  d="M8.5 1.866a1 1 0 1 0-1 0V3h-2A4.5 4.5 0 0 0 1 7.5V8a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1v1a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-1a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1v-.5A4.5 4.5 0 0 0 10.5 3h-2V1.866ZM14 7.5V13a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V7.5A3.5 3.5 0 0 1 5.5 4h5A3.5 3.5 0 0 1 14 7.5Z"
+                />
+              </svg>
+              <h1>AI & ML</h1>
+            </div>
+            <div
+              class="ai&ml-description text-slate-300 sm:max-md:text-xs md:max-lg:text-sm"
+            >
+              <p>
+                Shaping Tomorrow with AI & ML: Transforming Data into
+                Intelligent Solutions
+              </p>
+            </div>
+          </div>
+          <div
+            class="software-development rounded-xl shadow-lg bg-slate-950 shadow-slate-950 py-10 px-6 flex flex-col items-center gap-8 text-center sm:w-[48%] sm:max-md:gap-4"
+          >
+            <div
+              class="software-title flex items-center text-2xl gap-4 font-semibold tracking-wider sm:max-md:text-[16px] md:max-lg:text-xl"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="bi bi-braces h-[40px] sm:max-md:h-[22px] md:max-lg:h-[30px]"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M2.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C3.25 2 2.49 2.759 2.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6zM13.886 7.9v.163c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456V7.332c-1.114 0-1.49-.362-1.49-1.456V4.352C13.51 2.759 12.75 2 11.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6z"
+                />
+              </svg>
+              <h1>Software Development</h1>
+            </div>
+            <div
+              class="software-description text-slate-300 sm:max-md:text-xs md:max-lg:text-sm"
+            >
+              <p>
+                Crafting Code, Building Dreams: Your Vision, Our Software
+                Solutions
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="py-16 bg-slate-950 flex flex-col items-center space-y-10 border-b border-b-slate-400"
+      id="portfolio"
+    >
+      <div class="portfolio-top space-y-4 text-center w-[92%]">
+        <div
+          class="portfolio-title text-4xl font-bold tracking-wider lg:text-5xl"
+        >
+          <h1>Portfolio</h1>
+        </div>
+        <div
+          class="portfolio-description text-base text-slate-300 md:text-lg lg:text-xl"
+        >
+          <p>Let's Take a Look on My Previous Work</p>
+        </div>
+      </div>
+      <div
+        class="portfolio-items w-[92%] grid grid-cols-2 md:grid-cols-3 gap-10"
+      >
+        <div
+          class="portfolio-item shadow-md bg-slate-900 rounded-xl overflow-hidden space-y-4 text-center pb-4 cursor-pointer"
+        >
+          <div class="portfolio-item-image">
+            <img
+              src="./assets/the-complete-resource-d8968760.png"
+              alt="Website Preview"
+              title="The Complete Resource"
+            />
+          </div>
+          <div class="portfolio-item-about space-y-2 px-4">
+            <div
+              class="portfolio-item-title max-sm:text-sm md:max-lg:text-lg text-xl font-semibold"
+            >
+              <h1>The Complete Resource</h1>
+            </div>
+            <div
+              class="portfolio-item-description text-slate-300 max-sm:text-xs md:text-sm"
+            >
+              <p>Affiliate Marketing Website (WordPress)</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="portfolio-item shadow-md bg-slate-900 rounded-xl overflow-hidden space-y-4 text-center pb-4 cursor-pointer"
+        >
+          <div class="portfolio-item-image">
+            <img src="./assets/snacking-e170c9fc.png" alt="Website Preview" title="Snacking" />
+          </div>
+          <div class="portfolio-item-about space-y-2 px-4">
+            <div
+              class="portfolio-item-title max-sm:text-sm md:max-lg:text-lg text-xl font-semibold"
+            >
+              <h1>Snacking</h1>
+            </div>
+            <div
+              class="portfolio-item-description text-slate-300 max-sm:text-xs md:text-sm"
+            >
+              <p>Vending Machine Website (WordPress)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="py-16 bg-slate-900 flex flex-col items-center space-y-10 border-b border-b-slate-400"
+      id="testimonial"
+    >
+      <div class="testimonial-top space-y-4 text-center w-[92%]">
+        <div
+          class="testimonial-title text-4xl font-bold tracking-wider lg:text-5xl"
+        >
+          <h1>Testimonials</h1>
+        </div>
+        <div
+          class="testimonial-description text-base text-slate-300 md:text-lg lg:text-xl"
+        >
+          <p>Let's See What Other's Say About My Work</p>
+        </div>
+      </div>
+      <div
+        class="testimonial-describe grid grid-cols-1 gap-10 w-[92%] sm:grid-cols-2"
+      >
+        <div
+          class="my-testimonial p-6 space-y-6 bg-slate-950 rounded-xl shadow-lg shadow-slate-950"
+        >
+          <div class="testimonial-top flex gap-6">
+            <div class="testimonial-img">
+              <img
+                src="./assets/ricky-testimonial-img-c1899663.png"
+                alt="Testimonial Image"
+                class="rounded-full h-16"
+              />
+            </div>
+            <div class="testimonial-client flex flex-col gap-1 justify-center">
+              <div
+                class="testimonial-client-name text-lg font-semibold tracking-wide sm:max-md:text-base"
+              >
+                <p>rookstar</p>
+              </div>
+              <div
+                class="testimonial-designation text-slate-400 text-sm font-semibold tracking-wider sm:max-md:text-xs"
+              >
+                <p>Fiverr Selective Buyer</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-description text-slate-300 sm:max-md:text-sm">
+            <p>
+              super work and very involved with the project. Will keep Sarmad
+              involved with this project for a long time.
+            </p>
+          </div>
+        </div>
+        <div
+          class="my-testimonial p-6 space-y-6 bg-slate-950 rounded-xl shadow-lg shadow-slate-950"
+        >
+          <div class="testimonial-top flex gap-6">
+            <div class="testimonial-img">
+              <img
+                src="./assets/ricky-testimonial-img-c1899663.png"
+                alt="Testimonial Image"
+                class="rounded-full h-16"
+              />
+            </div>
+            <div class="testimonial-client flex flex-col gap-1 justify-center">
+              <div
+                class="testimonial-client-name text-lg font-semibold tracking-wide sm:max-md:text-base"
+              >
+                <p>rookstar</p>
+              </div>
+              <div
+                class="testimonial-designation text-slate-400 text-sm font-semibold tracking-wider sm:max-md:text-xs"
+              >
+                <p>Fiverr Selective Buyer</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-description text-slate-300 sm:max-md:text-sm">
+            <p>
+              Great work. Sarmad went the extra mile and overperformed. He is a
+              must for my development team now. He is also great is providing
+              feedback and new ideas.
+            </p>
+          </div>
+        </div>
+        <div
+          class="my-testimonial p-6 space-y-6 bg-slate-950 rounded-xl shadow-lg shadow-slate-950"
+        >
+          <div class="testimonial-top flex gap-6">
+            <div class="testimonial-img">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAwCAYAAABuZUjcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANnSURBVGhD3ZpfSFNRHMe/u84ayz8jspktk1hqkVIgtAetKB8iJAglit6iCHyKegp6DHqqFyEIoqdFf8iS8MGHkkghg6BQITWRNZclSly1xsqand/duXrvnOa2c/TePi+7v3NfPjv7nd+59/zmmGMgC35OTEHtC2NmaAzR8ARi4ypmp6L4E5vV7ue4cpFb6IbL64G7tAj55SXwVJVifVGhdj9TMhKfnY5i/EUvJro+YGbwMx9Nj/yKrSiq2wXvkWrkFrj56MpJS5xmd7S1B2Ptb4HsfqgFHA6UNNRgW2MgrV9hxeLh+10I3XslTjgZ9gXKzhxA6ek6PrA8/xT/PvwFH291ZJwS6UIptLP5KPL8W/hIapYVH+/sw+DNZ/JmeSnY7FdcOg7v4So+sJglxSNPezBy5zmP1oYd5+rhOxHgkRmFf5qwgjRBDuSSikXilB5WkNYhF3JKxiROC1HLaYtBTuRmxCRO1WPVF+JKYE6am4F5carTq1XyMoHcyFFHE6cdUdtcLA45kiuhidM2bskUSYY5aq4MhR6YtGcPm0Cu5OwYffJ6LtPyV377Kop9iev4p/fob26HmghTEED1o3p4NrDLHyGMnAwikriRNrQxKfRoKgJl+x74L/p5JBdyVsRVEifcB+tRvp+HEiFnUx3PmnWbUHyhCRt5KBNB4r8R/8UvvZWovJb6wUgkgsRVTLZGEOeRc18tqhs9PJKDsFSJB9sQ6o3xyAVPUwN8JTyUgMAcVxFp6YY6zcOCMpRdPsS+ghzELs6xHvQ+DLGMT6BUBrD7vJyUEStOtAUx0K1vQ07kHTslpUSKF2d8u96BrxE+76xEbj7bILxEShEHhjF0tx9RXiIV3174r+QlAkFIEme8acdw5+R8iXTV1qBA4EqVJ85QWx4gMqAvVSeUHH4pAKniVCJDN14ulEiBSBZnsBI59HihRIpCoSMv2cRagwi/03fV7CHnrF4k1grtRYLOp+mszjYwV3JW6FCdzqftArmSs7Y46VDdFrPOHDVXhiZOnQA6VLc65Kh3LebLIXUCVqPCZAq5GbsVpjpOnQBLpgxz0twMmMSpfUGdAKtBTsmtFZM4Qe0LqpNWgVxStVQWiRPUvrCCPDks1Ur5/5pXOrZsFxqxXYPWiC1b4kZs9yeEVKzN3z6AvzAnjtS8+L91AAAAAElFTkSuQmCC"
+                alt="Testimonial Image"
+                class="rounded-full h-16"
+              />
+            </div>
+            <div class="testimonial-client flex flex-col gap-1 justify-center">
+              <div
+                class="testimonial-client-name text-lg font-semibold tracking-wide sm:max-md:text-base"
+              >
+                <p>nathaliekad</p>
+              </div>
+              <div
+                class="testimonial-designation text-slate-400 text-sm font-semibold tracking-wider sm:max-md:text-xs"
+              >
+                <p>Fiverr Buyer</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-description text-slate-300 sm:max-md:text-sm">
+            <p>
+              I came back to make second order because my first experience was
+              just excellent, would highly recommend to anyone looking to create
+              a unique website and a logo was included in my offer, overall
+              great service 👍🏽 😊
+            </p>
+          </div>
+        </div>
+        <div
+          class="my-testimonial p-6 space-y-6 bg-slate-950 rounded-xl shadow-lg shadow-slate-950"
+        >
+          <div class="testimonial-top flex gap-6">
+            <div class="testimonial-img">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAwCAYAAABuZUjcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANnSURBVGhD3ZpfSFNRHMe/u84ayz8jspktk1hqkVIgtAetKB8iJAglit6iCHyKegp6DHqqFyEIoqdFf8iS8MGHkkghg6BQITWRNZclSly1xsqand/duXrvnOa2c/TePi+7v3NfPjv7nd+59/zmmGMgC35OTEHtC2NmaAzR8ARi4ypmp6L4E5vV7ue4cpFb6IbL64G7tAj55SXwVJVifVGhdj9TMhKfnY5i/EUvJro+YGbwMx9Nj/yKrSiq2wXvkWrkFrj56MpJS5xmd7S1B2Ptb4HsfqgFHA6UNNRgW2MgrV9hxeLh+10I3XslTjgZ9gXKzhxA6ek6PrA8/xT/PvwFH291ZJwS6UIptLP5KPL8W/hIapYVH+/sw+DNZ/JmeSnY7FdcOg7v4So+sJglxSNPezBy5zmP1oYd5+rhOxHgkRmFf5qwgjRBDuSSikXilB5WkNYhF3JKxiROC1HLaYtBTuRmxCRO1WPVF+JKYE6am4F5carTq1XyMoHcyFFHE6cdUdtcLA45kiuhidM2bskUSYY5aq4MhR6YtGcPm0Cu5OwYffJ6LtPyV377Kop9iev4p/fob26HmghTEED1o3p4NrDLHyGMnAwikriRNrQxKfRoKgJl+x74L/p5JBdyVsRVEifcB+tRvp+HEiFnUx3PmnWbUHyhCRt5KBNB4r8R/8UvvZWovJb6wUgkgsRVTLZGEOeRc18tqhs9PJKDsFSJB9sQ6o3xyAVPUwN8JTyUgMAcVxFp6YY6zcOCMpRdPsS+ghzELs6xHvQ+DLGMT6BUBrD7vJyUEStOtAUx0K1vQ07kHTslpUSKF2d8u96BrxE+76xEbj7bILxEShEHhjF0tx9RXiIV3174r+QlAkFIEme8acdw5+R8iXTV1qBA4EqVJ85QWx4gMqAvVSeUHH4pAKniVCJDN14ulEiBSBZnsBI59HihRIpCoSMv2cRagwi/03fV7CHnrF4k1grtRYLOp+mszjYwV3JW6FCdzqftArmSs7Y46VDdFrPOHDVXhiZOnQA6VLc65Kh3LebLIXUCVqPCZAq5GbsVpjpOnQBLpgxz0twMmMSpfUGdAKtBTsmtFZM4Qe0LqpNWgVxStVQWiRPUvrCCPDks1Ur5/5pXOrZsFxqxXYPWiC1b4kZs9yeEVKzN3z6AvzAnjtS8+L91AAAAAElFTkSuQmCC"
+                alt="Testimonial Image"
+                class="rounded-full h-16"
+              />
+            </div>
+            <div class="testimonial-client flex flex-col gap-1 justify-center">
+              <div
+                class="testimonial-client text-lg font-semibold tracking-wide sm:max-md:text-base"
+              >
+                <p>nathaliekad</p>
+              </div>
+              <div
+                class="testimonial-designation text-slate-400 text-sm font-semibold tracking-wider sm:max-md:text-xs"
+              >
+                <p>Fiverr Buyer</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-description text-slate-300 sm:max-md:text-sm">
+            <p>
+              Excellent Services, Easy to Work With, Very Helpful, Excellent
+              Communication Level, Quick Response. We Got Along Very Well and
+              Developed a Great Working Relationship. fantastic outcomes, and I
+              was happy with the final result. I will definitely recommend for
+              future website development. A+++++++
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="py-6 bg-slate-950 text-slate-300 text-center">
+      <div class="copy-right">Sarmad © 2023 | All Rights Reserved</div>
+    </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const navLinks = document.querySelectorAll("span a");
+
+        navLinks.forEach((link) => {
+          link.addEventListener("click", function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute("href");
+            document
+              .querySelector(targetId)
+              .scrollIntoView({ behavior: "smooth" });
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
